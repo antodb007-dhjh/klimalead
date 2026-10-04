@@ -20,6 +20,8 @@ Destinations usuelles (à adapter, proposées à titre indicatif) :
 | Claude Code | `~/.claude/skills` |
 | Projet | `<repo>/.claude/skills` ou tout dossier de skills du projet |
 
+Dans ce dépôt, `.claude/skills` est un lien symbolique vers `skills/` : Claude Code lancé à la racine du clone détecte directement les 23 skills, sans copie à maintenir.
+
 Tests : `node --test test-skills/*.test.mjs`.
 
 Deux compléments originaux sont installés de la même façon :
